@@ -1,12 +1,12 @@
-# Noreion
+# Noerion
 
-A clean, modern landing website for Noreion — a stealth robotics startup building autonomous systems for real-world operations.
+A clean, modern landing website for Noerion — a stealth robotics startup building autonomous systems for real-world operations.
 
-**Live:** https://ritabrata-chakraborty.github.io/Noreion/
+**Live:** https://ritabrata-chakraborty.github.io/Noerion/
 
-## About Noreion
+## About Noerion
 
-Noreion focuses on advancing robotic autonomy and human-centred systems for critical operations. Our core capabilities span:
+Noerion focuses on advancing robotic autonomy and human-centred systems for critical operations. Our core capabilities span:
 
 - **Agricultural Intelligence** — Monitor orchards and farms at scale through autonomous surveillance, crop insights, anomaly detection, and perimeter awareness
 - **Search & Response** — Enable robots to explore unfamiliar environments, navigate known spaces efficiently, and assist teams in locating people and detecting intrusions
