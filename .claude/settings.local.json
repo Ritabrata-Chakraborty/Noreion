@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(gh repo *)",
+      "Bash(git --version)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://api.github.com/repos/Ritabrata-Chakraborty/Noreion)",
+      "Bash(env)",
+      "Bash(curl -s https://api.github.com/repos/Ritabrata-Chakraborty/Noreion/pages)",
+      "Bash(npm install *)",
+      "Bash(git rebase *)"
+    ]
+  }
+}

@@ -6,7 +6,7 @@ interface TeamSectionProps {
 }
 
 export default function TeamSection({ darkMode }: TeamSectionProps) {
-  const email = "ritabratabits@gmail.com";
+  const email = "rc[at]noreion[dot]org";
   const portfolioUrl = "https://ritabrata-chakraborty.github.io/Portfolio/";
 
   return (
@@ -79,19 +79,19 @@ export default function TeamSection({ darkMode }: TeamSectionProps) {
                 <ArrowUpRight size={13} className="opacity-60" />
               </a>
 
-              <button 
+              <button
                 onClick={() => {
-                  window.location.href = `mailto:${"ritabratabits" + "@" + "gmail.com"}?subject=Inquiry%20to%20Noreion`;
+                  window.location.href = `mailto:${"rc" + "@" + "noreion.org"}?subject=Inquiry%20to%20Noreion`;
                 }}
                 className={`flex items-center justify-between gap-2 rounded-lg px-4 py-2.5 text-xs font-medium transition-all duration-200 hover:-translate-y-0.5 text-left w-full cursor-pointer ${
-                  darkMode 
-                    ? "bg-slate-100 hover:bg-slate-200 text-slate-900" 
+                  darkMode
+                    ? "bg-slate-100 hover:bg-slate-200 text-slate-900"
                     : "bg-slate-950 hover:bg-slate-850 text-white"
                 }`}
               >
                 <div className="flex items-center gap-1.5">
                   <Mail size={14} className="opacity-85" />
-                  <span>ritabbratabits [at] gmail [dot] com</span>
+                  <span>rc [at] noreion [dot] org</span>
                 </div>
                 <ArrowUpRight size={13} className="opacity-80" />
               </button>
