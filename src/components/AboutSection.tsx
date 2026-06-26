@@ -32,10 +32,11 @@ export default function AboutSection({ darkMode }: AboutSectionProps) {
     >
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-10">
-          <h2 className={`text-2xl font-semibold tracking-tight mt-1 transition-colors duration-500 ${
-            darkMode ? "text-slate-100" : "text-slate-900"
+          <span className={`font-sans text-xs font-semibold tracking-wider uppercase transition-colors duration-500 ${
+            darkMode ? "text-blue-400" : "text-blue-600"
           }`}>
-            Platform Capabilities
+            Core Capabilities
+          </span>
           </h2>
         </div>
 

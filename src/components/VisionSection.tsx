@@ -34,7 +34,7 @@ export default function VisionSection({ darkMode }: VisionSectionProps) {
           }`}>
             "We believe autonomous systems should augment human capability rather than replace it. Our mission is to build trusted robotic partners that help people operate safely and effectively in environments that are large, hazardous, or difficult to access.
 
-            From disaster response and industrial inspection to environmental monitoring and agriculture, we aim to make advanced autonomy practical, reliable, and accessible in the real world."
+             From disaster response and industrial inspection to environmental monitoring and agriculture, we aim to make advanced autonomy practical, reliable, and accessible in the real world."
           </blockquote>
 
           {/* Bottom-right decoration bracket */}
