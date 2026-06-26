@@ -56,7 +56,7 @@ export default function TeamSection({ darkMode }: TeamSectionProps) {
               <p className={`mt-2 text-sm leading-relaxed max-w-md text-justify transition-colors duration-500 ${
                 darkMode ? "text-slate-400" : "text-slate-600"
               }`}>
-                Ritabrata is a robotics researcher specializing in autonomous navigation, motion planning, and human-robot collaboration. Through Noreion, he is building intelligent robotic systems that combine advanced autonomy with intuitive human oversight, enabling deployment in challenging real-world environments.
+                Ritabrata is a robotics researcher specializing in autonomous navigation, motion planning, and human-robot collaboration. He founded Noreion to develop practical autonomy systems capable of operating reliably in real-world, mission-critical environments.
               </p>
             </div>
 

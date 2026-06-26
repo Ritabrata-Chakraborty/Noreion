@@ -7,18 +7,18 @@ interface AboutSectionProps {
 export default function AboutSection({ darkMode }: AboutSectionProps) {
   const cards = [
     {
-       title: "Autonomous Exploration & Mapping",
-       description: "Robots that navigate unfamiliar environments, build situational awareness in real time, and assist operators in search, inspection, and emergency response missions.",
+       title: "Autonomous Exploration & Navigation",
+       description: "Robots that understand unfamiliar environments, generate actionable maps, and navigate challenging terrain with minimal operator burden.",
        icon: Cpu
     },
     {
-       title: "Persistent Environmental Intelligence",
-       description: "Continuous monitoring solutions for agriculture, industrial facilities, and critical infrastructure, enabling anomaly detection, asset awareness, and data-driven decision making.",
+       title: "Persistent Situational Awareness",
+       description: "Real-time monitoring, anomaly detection, and environmental understanding that provide teams with the information they need to make better decisions under uncertainty.",
        icon: Eye
     },
     {
-       title: "Human-in-the-Loop Mission Control",
-       description: "A unified command platform that allows a single operator to supervise multiple robotic systems, intervene when necessary, and collaborate with autonomous agents effectively.",
+       title: "Human-Centered Mission Control",
+       description: "A unified command platform that enables operators to supervise autonomous systems, coordinate missions, and intervene seamlessly when required.",
        icon: Network
     },
   ];
