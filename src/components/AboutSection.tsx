@@ -37,6 +37,11 @@ export default function AboutSection({ darkMode }: AboutSectionProps) {
           }`}>
             Core Capabilities
           </span>
+          <h2 className={`text-2xl font-semibold tracking-tight mt-1 transition-colors duration-500 ${
+            darkMode ? "text-slate-100" : "text-slate-900"
+          }`}>
+            What We Are Exploring
+          </h2>
         </div>
 
         {/* 3 Columns Displayed Simultaneously */}
