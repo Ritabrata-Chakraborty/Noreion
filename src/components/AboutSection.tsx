@@ -37,7 +37,6 @@ export default function AboutSection({ darkMode }: AboutSectionProps) {
           }`}>
             Core Capabilities
           </span>
-          </h2>
         </div>
 
         {/* 3 Columns Displayed Simultaneously */}
