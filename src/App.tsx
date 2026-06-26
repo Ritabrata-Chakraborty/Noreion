@@ -62,7 +62,7 @@ export default function App() {
               <span className={`transition-colors duration-500 ${
                 darkMode ? "text-slate-500" : "text-slate-400"
               }`}>
-                Real-World Operations
+                Critical Field Operations
               </span>
             </motion.h1>
 
@@ -75,7 +75,7 @@ export default function App() {
                 darkMode ? "text-slate-400" : "text-slate-600"
               }`}
             >
-              Smarter robotic operations powered by autonomy and guided by human expertise.
+              Empowering a single operator to coordinate autonomous robot fleets that explore, understand, and act in hazardous and unknown environments.
             </motion.p>
           </div>
         </section>

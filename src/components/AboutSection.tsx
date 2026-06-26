@@ -7,18 +7,18 @@ interface AboutSectionProps {
 export default function AboutSection({ darkMode }: AboutSectionProps) {
   const cards = [
     {
-       title: "Agricultural Intelligence",
-       description: "Monitor orchards and farms at scale through autonomous surveillance, crop insights, anomaly detection, and perimeter awareness, helping operators make informed decisions faster.",
+       title: "Autonomous Exploration & Mapping",
+       description: "Robots that navigate unfamiliar environments, build situational awareness in real time, and assist operators in search, inspection, and emergency response missions.",
        icon: Cpu
     },
     {
-       title: "Search & Response",
-       description: "Enable robots to explore unfamiliar environments, navigate known spaces efficiently, and assist teams in locating people, detecting intrusions, and maintaining situational awareness.",
+       title: "Persistent Environmental Intelligence",
+       description: "Continuous monitoring solutions for agriculture, industrial facilities, and critical infrastructure, enabling anomaly detection, asset awareness, and data-driven decision making.",
        icon: Eye
     },
     {
-       title: "Mission Command",
-       description: "A unified command centre that transforms complex robotic systems into intuitive tools, allowing operators to supervise missions, provide guidance, and intervene when needed.",
+       title: "Human-in-the-Loop Mission Control",
+       description: "A unified command platform that allows a single operator to supervise multiple robotic systems, intervene when necessary, and collaborate with autonomous agents effectively.",
        icon: Network
     },
   ];
@@ -32,15 +32,10 @@ export default function AboutSection({ darkMode }: AboutSectionProps) {
     >
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-10">
-          <span className={`font-sans text-xs font-semibold tracking-wider uppercase transition-colors duration-500 ${
-            darkMode ? "text-blue-400" : "text-blue-600"
-          }`}>
-            Core Capabilities
-          </span>
           <h2 className={`text-2xl font-semibold tracking-tight mt-1 transition-colors duration-500 ${
             darkMode ? "text-slate-100" : "text-slate-900"
           }`}>
-            What We Are Exploring
+            Platform Capabilities
           </h2>
         </div>
 

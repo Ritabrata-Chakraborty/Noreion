@@ -32,7 +32,9 @@ export default function VisionSection({ darkMode }: VisionSectionProps) {
           <blockquote className={`text-xl md:text-2xl leading-relaxed font-sans tracking-tight font-light transition-colors duration-500 ${
             darkMode ? "text-slate-300" : "text-slate-700"
           }`}>
-            "We envision a future where autonomous systems become trusted partners in critical operations, helping responders search faster, enabling farmers to monitor larger areas with fewer resources, and empowering security teams with persistent awareness. By combining robotic autonomy with human expertise, we aim to make intelligent operations safer, more effective, and accessible across industries."
+            "We believe autonomous systems should augment human capability rather than replace it. Our mission is to build trusted robotic partners that help people operate safely and effectively in environments that are large, hazardous, or difficult to access.
+
+            From disaster response and industrial inspection to environmental monitoring and agriculture, we aim to make advanced autonomy practical, reliable, and accessible in the real world."
           </blockquote>
 
           {/* Bottom-right decoration bracket */}
